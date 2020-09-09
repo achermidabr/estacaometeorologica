@@ -6,6 +6,7 @@
 
 /*
  * By: achermida@gmail.com
+ * @ : https://github.com/achermidabr/estacaometeorologica
  * Version 1.0.0
  *  - Reading data from BME
  * Version 1.1.0

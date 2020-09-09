@@ -46,7 +46,7 @@ void WindSpeedKM() {
  * r -> radious in meters
  */
 double WindSpeedMS() {
-  windspeedms = ((2 * pi * RPM * radius) / 60) / 1000; //Dividimos por 1000 para deixar em metros ja que o raio estava em mm
+  windspeedms = ((2 * pi * RPM * radius * frictionFactor) / 60) / 1000; //Dividimos por 1000 para deixar em metros ja que o raio estava em mm
 } //end WindSpeed
 
 void initDeepSleepBy(unsigned long d){
